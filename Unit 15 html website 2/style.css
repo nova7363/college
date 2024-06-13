@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(194, 100%, 50%);
+    padding: 10px 20px;
+    position: relative;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.shopping-cart {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.shopping-cart a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: hsl(194, 100%, 50%);
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(194, 100%, 25%);
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slideshow-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 60%;
+    max-width: 600px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.mySlides img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+}
+
+footer {
+    background-color: hsl(194, 100%, 50%);
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: Left;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
+main {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table.opening-hours {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.opening-hours th,
+table.opening-hours td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table.opening-hours th {
+    background-color: hsl(194, 100%, 50%);
+    color: white;
+}
+
+table.opening-hours tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.opening-hours tr:hover {
+    background-color: #ddd;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.product {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.spec-box {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.spec-box p {
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    align-self: center;
+    background-color: hsl(194, 100%, 50%); 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: hsl(194, 100%, 25%); 
+}
+.contact-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+}
+
+.contact-form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    align-self: center;
+    background-color: hsl(194, 100%, 50%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: hsl(194, 100%, 25%);
+}
